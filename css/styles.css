@@ -1,0 +1,37 @@
+#menu {
+  display: flex;
+  flex-direction: row;
+}
+
+#menu li {
+  flex-grow: 1;
+  list-style-type: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid-item {
+  background-color: bisque;
+  border: solid 2px brown;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contestant {
+  width: 20em;
+  padding-top: 10px;
+}
+
+.footer {
+  grid-column: 1 / span 4;
+}
+
+body {
+  font-size: 10px;
+  font-size: 13px;
+}

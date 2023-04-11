@@ -1,0 +1,43 @@
+body {
+  background-color: white;
+}
+
+div {
+  font-size: xx-large;
+  border: 2px solid black;
+  text-align: center;
+  position: absolute;
+  /*display: inline;*/
+}
+
+.box1 {
+  background-color: royalblue;
+}
+
+.box2 {
+  background-color: forestgreen;
+  top: 5px;
+  right: 5px;
+}
+
+.box3 {
+  background-color: goldenrod;
+  bottom: 5px;
+  left: 5px;
+}
+
+.box4 {
+  background-color: indigo;
+}
+
+.box5 {
+  background-color: palevioletred;
+}
+
+.Centeredthing {
+  background-color: blueviolet;
+  margin: auto;
+  left: 50;
+  top: 50%;
+  transform: translate(50%, 50%);
+}
